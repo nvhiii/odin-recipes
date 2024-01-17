@@ -1,4 +1,25 @@
-button {
+.s1 {
+
+    color:black; /* text color */
+    background: lightskyblue;
+    font-size: 12px;
+    font-family:'Arial', 'Helvetica', sans-serif; /* add multiple fonts and generic as "fallback" */
+    padding-left: 20%;
+    padding-right: 20%; /* space between border and text */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.s1-header {
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+button { /* type selector */
 
     color:aliceblue;
     background-color: blue;
@@ -10,7 +31,7 @@ button {
 
 }
 
-button:hover {
+button:hover { /* this is a type selector */
 
     transform: scale(1.1);
 
