@@ -5,6 +5,7 @@
 
     /* tinkering with this, follow up on next lesson */
     display: flex;
+    flex-direction: column;
 
 }
 
