@@ -1,3 +1,12 @@
+* {
+
+    outline: 2px solid red;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* sets flex direction to vertical, default is row */
+
+}
+
 .s1 {
 
     color:black; /* text color */
