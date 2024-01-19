@@ -1,64 +1,168 @@
 * {
 
     outline: 2px solid red;
-    box-sizing: border-box;
+    font-family: 'Helvectica', 'Arial', sans-serif;
 
-    /* tinkering with this, follow up on next lesson */
+}
+
+.menu-container {
+
+    background-color: lightblue;
+    color:black;
+
+    font-family: 'Helvectica', 'Arial', sans-serif;
+    font-size: 18px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 
 }
 
-.s1 {
+.menu {
 
-    color:black; /* text color */
-    background: lightskyblue;
-    font-size: 12px;
-    font-family:'Helvectica', 'Arial', sans-serif; /* add multiple fonts and generic as "fallback" */
+    display: flex;
+    width: 900px;
+    justify-content: inherit;
+    align-items: center;
+    padding: 2%;
+
+}
+
+.dropdown {
+
+    margin-right: auto;
+
+}
+
+.sign-up {
+
+    margin-left: auto;
+
+}
+
+.header-container {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+
+    display: flex;
     height: 300px;
-    width: 800px;
-    padding: 20px;
-    border: 2px solid black;
-    margin: 10px;
-    align-self: center;
+    width: 900px;
+    /* align-items: inherit; /* vertical alignment in flex display for row */
+    /* justify-content: inherit; /* horizontal alignment in flex display for column */
+
+    padding-top: 3%;
+    padding-left: 3%;
+    align-items: flex-start;
+    justify-content: flex-start;
 
 }
 
-.s1-header,
-.s2-header {
+.header-button {
 
-    font-size: 20px;
+    /* add styling here */
+
+}
+
+.mission-stmnt-container {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+
+}
+
+.mission-stmnt {
+
+    display: flex;
+    height: 300px;
+    width: 900px;
+
+    padding-left: 2%;
+    align-items: inherit;
+
+}
+
+.mission {
+
+    color:black;
+    font-family: 'Helvectica', 'Arial', sans-serif;
+    font-size: 36px;
     font-weight: bold;
 
 }
 
-.s2 {
+.img-container {
 
-    background-color: aquamarine;
-    color:black;
-    font-family: 'Helvectica', 'Arial', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgs {
+
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.attention-img {
+
+    width: 300px;
     height: 300px;
-    width: 800px;
-    align-self: center;
-    text-align: center;
-    padding: 20px;
 
 }
 
-button { /* type selector */
+.what-we-offer-container {
 
-    color:aliceblue;
-    background-color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-
-    border-radius: 8px;
-
-    transition: transform 275ms ease-in-out;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-button:hover { /* this is a type selector */
+.how-it-works-container {
 
-    transform: scale(1.1);
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.get-started {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
