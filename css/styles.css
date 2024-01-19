@@ -17,6 +17,7 @@
     margin-right: 15%;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -24,8 +25,7 @@
 .menu {
 
     display: flex;
-    width: 900px;
-    justify-content: inherit;
+    width: 100%;
     align-items: center;
     padding: 2%;
 
@@ -48,6 +48,7 @@
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -57,12 +58,12 @@
 
     display: flex;
     height: 300px;
-    width: 900px;
+    width: 100%;
     /* align-items: inherit; /* vertical alignment in flex display for row */
     /* justify-content: inherit; /* horizontal alignment in flex display for column */
 
     padding-top: 3%;
-    padding-left: 3%;
+    padding-left: 5%;
     align-items: flex-start;
     justify-content: flex-start;
 
@@ -79,6 +80,7 @@
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
 }
@@ -87,7 +89,7 @@
 
     display: flex;
     height: 300px;
-    width: 900px;
+    width: 100%;
 
     padding-left: 2%;
     align-items: inherit;
@@ -108,13 +110,14 @@
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
 
 .imgs {
 
-    width: 900px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 
@@ -131,9 +134,48 @@
 
     margin-left: 15%;
     margin-right: 15%;
+
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+}
+
+.what-we-offer {
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+    padding: 2%;
+
+    align-items: center;
+
+
+}
+
+.wwo-1,
+.wwo-2,
+.wwo-3 {
+
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.wwo-1 {
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.wwo-3 {
+
+    margin-right: 3%;
+    margin-left: 3%;
 
 }
 
@@ -141,7 +183,27 @@
 
     margin-left: 15%;
     margin-right: 15%;
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.how-it-works {
+
+
+
+}
+
+.get-started-container {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -149,9 +211,29 @@
 
 .get-started {
 
+    display: flex;
+    height: 300px;
+    width: 100%; /* alternative to setting flex basis to 100% */
+
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-bottom: 3%;
+
+}
+
+.get-started-button {
+
+    /* add styling here */
+
+}
+
+.footer-container {
+
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -159,10 +241,13 @@
 
 .footer {
 
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    justify-content: space-between;
     align-items: center;
 
 }
+
